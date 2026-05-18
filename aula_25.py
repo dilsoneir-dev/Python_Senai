@@ -7,6 +7,7 @@ voos = voos.pivot(index='month', columns='year', values='passengers')
 
 plt.figure(figsize=(10, 6))
 
-sns.heatmap(data=voos, annot=True, cmap='coolwarm')
+sns.heatmap(data=voos, annot=True, cmap='coolwarm' \
+'')
             
 plt.show()
